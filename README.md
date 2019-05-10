@@ -2,14 +2,14 @@
 This is a PyTorch implement of ['Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations'.](https://aclweb.org/anthology/Q16-1023) and ['Arc-Hybrid Non-Projective Dependency Parsing with a Static-Dynamic Oracle'](https://www.aclweb.org/anthology/W17-6314).
 
 It is a transition-based dependency parser for both projective and non-projective trees, using BiLSTM networks and arc-hybrid systems.
-It is just a naive implement of these paper without much optimization, so it does not show .
+Although it is just a naive implement of these papers without much optimization, its performance is beyond expectation.
 
 ## Requirements
 + Python 3.6 (>=)
 + PyTorch 1.0 (>=)
 
 ## About dataset
-The dataset I used for training is a treebank in Chinese. It is only for class use, so I can't upload it to github.
+The dataset I used for training is a treebank in Chinese. It is class-use only, so I can't upload it to github.
 It is preprocessed into 'json' format. Each word in the sentence has these attributes: 'id', 'word', 'pos', 'father', 'emb'.
 
 ## Reference
