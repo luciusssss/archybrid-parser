@@ -5,8 +5,8 @@ It is a transition-based dependency parser for both projective and non-projectiv
 Although it is just a naive implement of these papers without much optimization, its performance is beyond expectation.
 
 ## Requirements
-+ Python 3.6 (>=)
-+ PyTorch 1.0 (>=)
++ Python (>= 3.6)
++ PyTorch (>= 1.0)
 
 ## About dataset
 The dataset I used for training is a treebank in Chinese. It is class-use only, so I can't upload it to github.
